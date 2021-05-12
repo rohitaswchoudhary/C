@@ -4,8 +4,11 @@
 #include<conio.h>
 void main()
 {
-	clrscr();
+	// clrscr();
 	int sml=1, i, limit, d=46;   // ASCII code for smiling face is 1. 
+
+// you can play around with other integers and check what comes. 
+
 	printf("How many smiley face you want to print ? ");
 	scanf("%d",&limit);
 	for(i=1; i<limit+1; i++)
