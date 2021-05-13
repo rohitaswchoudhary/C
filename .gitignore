@@ -1,5 +1,7 @@
 # Prerequisites
 *.d
+*rohit.txt
+*settings.json
 
 # Excluding executable files
 *.exe
