@@ -1,3 +1,25 @@
+// TOKENS:
+// ------
+/*
+In C programs, each word and punctuation is referred to as a token. 
+C Tokens are the smallest building block or smallest unit of a C program.
+
+The compiler breaks a program into the smallest possible units and 
+proceeds to the various stages of the compilation, which is called token.
+
+C Supports Six Types of Tokens:
+------------------------------
+
+
+Identifiers
+Keywords
+Constants
+Strings
+Operators
+Special Symbols
+
+*/
+
 // IDENTIFIERS
 
 // Identifiers are names given to different entities such as constants, 
