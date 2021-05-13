@@ -1,7 +1,17 @@
 # Prerequisites
 *.d
-*rohit.txt
-*settings.json
+
+
+node_modules/
+.vscode/
+settings.json
+secretnotes.md
+imports/lib/
+public/fonts/
+
+*.vscode/
+*.vscode/settings.json
+
 
 # Excluding executable files
 *.exe
