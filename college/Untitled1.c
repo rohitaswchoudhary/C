@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+int RADIUS;
+
 int main(){
 	
 	for (int i = 0; i < RADIUS*2; i++)
@@ -20,13 +22,10 @@ printf("\n");
 }
 }
 
+}	
 	
 	
 	
-	
-	
-	
-}
 
 
 
