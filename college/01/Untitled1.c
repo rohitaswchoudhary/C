@@ -1,34 +1,17 @@
-#include<stdio.h>
+# include<stdio.h>
 
-int RADIUS;
-
-int main(){
-	
-	for (int i = 0; i < RADIUS*2; i++)
+int main()
 {
-for (int j = 0; j < RADIUS*2; j++)
-{
-if (i * i + j * j == RADIUS * RADIUS)
-{
-printf("0");
-} else {
-printf(" ");
+	int num1, num2, product;
+
+	printf("\nEnter the value of the first number: \n");
+	scanf("%d", &num1);
+	printf("\nEnter the value of the second number: \n");
+	scanf("%d", &num2);
+
+	product = num1*num2;
+
+	printf("Product of the two numbers %d and %d is %d\n", num1, num2, product);
+    
+	return 0;
 }
-
-if (j == RADIUS*2)
-{
-printf("\n");
-}
-}
-}
-
-}	
-	
-	
-	
-
-
-
-
-
-

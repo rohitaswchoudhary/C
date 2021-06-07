@@ -1,14 +1,24 @@
+// 2021-06-07 06:24:06
+
 #include<stdio.h>
 
-int main() {
-    float pi = 3.142857, r=5, area,a;
+int main()
+{
+    float length, breadth, perimeter ,area;
 
-    area = pi *r*r;
+    printf("Enter the length of rectangle: ");
+    scanf("%f", &length);
+    printf("Enter the breadth of rectangle: ");
+    scanf("%f", &breadth);
 
-    printf("area of circle of radius 5cm is: %f\n", area,"sq. cm");
+    perimeter = 2*(length+breadth);
 
+    printf("\n\nPeremeter of rectangle is: %f ",perimeter);
 
-    return 3000;
+    area = length*breadth;
 
+    printf("\nArea of rectangle is: %f ",area);
+
+    return area;
 
 }

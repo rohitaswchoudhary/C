@@ -1,20 +1,25 @@
+// 2021-05-10
+// program to get sum of two numbers
+
 #include<stdio.h>
 
-int main()
+void main()
 {
-	int a, b, c;
+	int num1, num2, sum;
+
+	printf("Enter the numbers you want to sum\n\n");
 	
-	printf("enter the first number:");
-	scanf("%d",&a);
+	printf("enter the first number:\n");
+	scanf("%d",&num1);
 	
-	printf("enter the second number:");
-	scanf("%d",&b);
+	printf("\nenter the second number:\n");
+	scanf("%d",&num2);
 	
-	c=a+b;
+	sum = num1+num2;
 	
-	printf("sum of two numbers is : %d",c);
+	printf("\nsum of two numbers %d and %d is : %d",num1, num2, sum);
 	
-	return 3000;
+	getchar();
 	
 	
 }
