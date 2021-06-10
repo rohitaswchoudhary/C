@@ -1,0 +1,60 @@
+Q1. Write a program in C to show implicit data conversion.
+
+soln: #include<stdio.h>
+    void main()
+    {
+	
+	    int sml=2, i, limit;   // ASCII code for smiling face is 2. 
+	    char smilly;
+
+	    printf("\nNumber of emojies you want to print on screen: ");
+	    scanf("%d", &limit);
+
+	    smilly = sml;  // compiler will convert data type to char
+	 
+	    //  the data type of sml will remain unchanged. 
+	    printf("ASCII code for smilly is %d. \n\n",sml);  
+
+	    for ( i = 1; i <=limit; i++ )
+	    {
+	    	printf("%d. %c ", i, smilly);     // implicit type conversion of int data type to char
+	    }
+	
+    }
+
+  Output:   Number of emojies you want to print on screen: 10
+            ASCII code for smilly is 2. 
+
+            1. ☻ 2. ☻ 3. ☻ 4. ☻ 5. ☻ 6. ☻ 7. ☻ 8. ☻ 9. ☻ 10. ☻ 
+
+
+
+Q2. Write a program in C to compare two user given numbers using if-else statements.
+
+soln:  #include <stdio.h>
+    void main()
+    {
+        int int1, int2;
+
+        printf("Program to compare to user given number.\n\n");
+
+        printf("Input the values for first number : ");
+        scanf("%d", &int1);
+        printf("Input the values for second number : ");
+        scanf("%d", &int2);
+
+
+
+        if (int1 == int2)
+            printf("\n%d and %d are equal\n", int1, int2);
+        else
+            printf("\n%d and %d are not equal\n", int1, int2);
+
+    }
+
+  Output:   Program to compare to user given number.
+
+            Input the values for first number : 100
+            Input the values for second number : 101
+
+            100 and 101 are not equal  

@@ -5,7 +5,7 @@
 void main()
 {
 	
-	int sml=2, i, limit;   // ASCII code for smiling face is 1. 
+	int sml=2, i, limit;   // ASCII code for smiling face is 2. 
 	char smilly;
 
 	printf("\nNumber of emojies you want to print on screen: ");
