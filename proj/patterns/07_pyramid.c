@@ -8,7 +8,7 @@ int main()
     {
         for (space = 1; space <= rows - i; ++space)
         {
-            printf("   ");
+            printf("  ");
         }
         while (k != 2 * i - 1)
         {

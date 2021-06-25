@@ -1,26 +1,28 @@
-// program to read and print elements of an array.
-
 #include <stdio.h>
-
-int num[10];
 
 void main()
 {
-    int i;
+    int a[100];
+    int i, n, sum=0;
+	
+	
+       printf("\n\nFind sum of all elements of array:\n");
+       printf("--------------------------------------\n");	
 
-    printf("input 10 elements in an 1D-array: \n\n");
+       printf("Input the number of elements to be stored in the array :");
+       scanf("%d",&n);
+   
+       printf("Input %d elements in the array :\n",n);
+       for(i=0;i<n;i++)
+        {
+	      printf("element - %d : ",i);
+	      scanf("%d",&a[i]);
+	    }
 
-    for (i = 0; i < 10; i++)
+    for(i=0; i<n; i++)
     {
-        printf("\telement at index -%d : ", i);
-        scanf("%d", &num[i]);
+        sum += a[i];
     }
 
-    printf("elements in array are: ");
-    for (i = 0; i < 10; i++)
-    {
-        printf("%d ", num[i]);
-    }
-
-    printf("\n");
+    printf("Sum of all elements stored in the array is : %d\n\n", sum);
 }
