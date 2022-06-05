@@ -1,7 +1,6 @@
 /* C Program - Print Smiling Face on Screen */
 		
 #include<stdio.h>
-#include<conio.h>
 void main()
 {
 	// clrscr();

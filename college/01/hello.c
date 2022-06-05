@@ -1,7 +1,8 @@
 #include<stdio.h>
+#include<conio.h>
 
-void main(){
+void main()  {
 
-    printf("Hello C/C++!!!, This is my first C programming.");
+    printf("Hello C/C++!!!, This is my first C programming.\n");
     
 }
